@@ -41,4 +41,5 @@ Currently ```lynnic-utils``` is in initial release. We're trying to make it more
 ## Referrences
 
 [How to Create Nodejs Module and Publish Over to Npm](http://www.c-sharpcorner.com/UploadFile/g_arora/how-to-create-nodejs-module-and-publish-over-to-npm/)
+
 [记npm包开发全过程](http://www.cnblogs.com/xiaoheimiaoer/p/5041266.html)
