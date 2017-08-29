@@ -35,7 +35,7 @@ MIT
 
 ## Release notes
 
-Currently ```lynnic-utils``` is in initial release. We're trying to make it more stable. Currently, it supports Indian standard to read numbers as words. Check for more details: [Change log](https://github.com/lynnic26/utils/blob/master/Changelog.md)
+Currently ```lynnic-utils``` is in initial release. We're trying to make it more stable. Check for more details: [Change log](https://github.com/lynnic26/utils/blob/master/Changelog.md)
 
 
 ## Referrences
