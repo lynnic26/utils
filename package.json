@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec test/"
+    "test": "mocha --reporter spec test/",
+    "lint": "eslint lib"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,11 @@
   },
   "homepage": "https://github.com/lynnic26/utils#readme",
   "devDependencies": {
-    "chai": "^4.0.2"
+    "chai": "^4.0.2",
+    "mocha": "^3.5.2"
   },
   "dependencies": {
+    "eslint": "^4.6.1",
     "lodash": "^4.17.4"
   }
 }
