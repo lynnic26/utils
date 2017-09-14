@@ -6,7 +6,7 @@
   "scripts": {
     "commitmsg": "validate-commit-msg",
     "test": "mocha --reporter spec test/",
-    "lint": "eslint ./"
+    "lint": "eslint --ext .js ./"
   },
   "repository": {
     "type": "git",
