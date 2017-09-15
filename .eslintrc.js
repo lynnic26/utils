@@ -1,9 +1,13 @@
 module.exports = {
-    "env": {
-        "es6": true,
-        "commonjs": true
+    'extends': 'standard',
+    'env': {
+        'es6': true,
+        'commonjs': true
     },
-    "rules": {
-        "quotes": ["error", "double"]
+    'rules': {
+        // https://github.com/standard/standard/blob/master/docs/RULES-zhcn.md
+        'semi': ['error', 'always'],
+        'indent': ['error', 2],
+        'quotes': ['error', 'single']
     }
 };
