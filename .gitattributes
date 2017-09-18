@@ -1,7 +1,6 @@
-# Declare files that will always have CRLF line endings on checkout.
-*.css text eol=crlf
-*.html text eol=crlf
-*.js text eol=crlf
+# Git will always convert line endings to CRLF on checkout.
+# You should use this for files that must keep CRLF endings, even on OSX or Linux.
+text eol=crlf
 
 # Language specific diffs
 *.css diff=css
