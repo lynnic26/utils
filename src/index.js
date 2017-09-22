@@ -1,4 +1,4 @@
-let utils = require('./src/utils.js');
+let utils = require('./utils.js');
 
 module.exports = {
   add: utils.add
