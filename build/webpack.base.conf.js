@@ -8,5 +8,16 @@ module.exports = {
   output: {
     path: resolve('dist'),
     filename: 'index.js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        include: [resolve('src'), resolve('test')],
+        use: {
+          loader: 'babel-loader'
+        }
+      }
+    ]
   }
 }
