@@ -9,6 +9,13 @@ module.exports = {
     path: resolve('dist'),
     filename: 'index.js'
   },
+  resolve: {
+    // enable users to leave off the extension when importing
+    extensions: ['.js', '.json'],
+    alias: {
+      '@': resolve('src')
+    }
+  },
   module: {
     rules: [
       {
