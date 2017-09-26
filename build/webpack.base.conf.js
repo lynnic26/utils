@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');// to access built-in plugins
 // absolute directory
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
@@ -26,5 +27,8 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin()
+  ]
 }
